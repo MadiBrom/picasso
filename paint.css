@@ -1,0 +1,109 @@
+/* NAV */
+#navbar {
+  background-color: blue;
+  height: 60px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid #ff000074;
+  box-shadow: 0 4px 40px rgba(255, 0, 0, 0.728);
+}
+/* NAV */
+.nav {
+  text-decoration: none;
+  padding: 5px 5px;
+  font-size: 22px;
+  text-align: center;
+  cursor: pointer;
+  outline: 4px double rgba(0, 0, 255, 0.704);
+  padding-right: 10px;
+  padding-left: 15px;
+  color: hsla(57, 100%, 75%, 0.816);
+  text-shadow: 0 2px 10px rgb(64, 255, 0);
+  background-color: #000000a4;
+  box-shadow: 0 9px 3px #8000ff3a;
+  margin-left: 15px;
+  margin-top: 30px;
+  margin-bottom: auto;
+  display: inline-block;
+}
+.nav:hover {
+  color: hsla(57, 100%, 75%, 0.948);
+  text-shadow: 1px 2px 5px rgb(21, 255, 0);
+  background-color: #090034b3;
+}
+.nav:active {
+  background-color: #090034db;
+  box-shadow: 0 9px 3px #8000ff67;
+  border-radius: 5px;
+  outline: 4px double rgb(0, 47, 255);
+  transform: translateY(4px);
+}
+
+/* whole painting */
+#painting {
+  margin-top: 40px;
+  border: 20px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* row 1 */
+.container1 {
+  display: flex;
+  background-color: rgb(255, 0, 0);
+  flex-direction: row-reverse;
+}
+.container1 > div {
+  font-size: 30px;
+  background-color: #ffa200;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 50%;
+}
+.container1 > .divo {
+  background-color: #00fffb;
+  border-radius: 2px;
+  margin: 10px;
+  padding: 20px;
+}
+/* row 2 */
+.container2 {
+  display: flex;
+  background-color: #ffa200;
+  display: flex;
+  height: 90px;
+  align-items: center;
+}
+.container2 > div {
+  background-color: #fffb00;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 50%;
+}
+.container2 > .divo {
+  background-color: #00fffb;
+  border-radius: 2px;
+  margin: 10px;
+  padding: 20px;
+}
+
+/* row 3 */
+.container3 {
+  display: flex;
+  background-color: #fffb00;
+  flex-direction: row-reverse;
+}
+.container3 > div {
+  font-size: 30px;
+  background-color: #40ff00;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 50%;
+}
+.container3 > .divo {
+  background-color: #00fffb;
+  border-radius: 2px;
+  margin: 10px;
+  padding: 20px;
+}
