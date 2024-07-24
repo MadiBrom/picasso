@@ -55,7 +55,6 @@
   flex-direction: row-reverse;
 }
 .container1 > div {
-  font-size: 30px;
   background-color: #ffa200;
   margin: 10px;
   padding: 20px;
@@ -95,10 +94,12 @@
   flex-direction: row-reverse;
 }
 .container3 > div {
-  font-size: 30px;
+  width: 6px;
+  height: 6px;
   background-color: #40ff00;
-  margin: 10px;
-  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: auto;
+  margin-right: 40px;
   border-radius: 50%;
 }
 .container3 > .divo {
