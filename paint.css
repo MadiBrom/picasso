@@ -1,3 +1,7 @@
+/* backgroun */
+.body {
+  background-color: rgb(54, 54, 54);
+}
 /* NAV */
 #navbar {
   background-color: blue;
@@ -42,6 +46,8 @@
 
 /* whole painting */
 #painting {
+  width: 400px;
+  height: 200px;
   margin-top: 40px;
   border: 15px solid;
   display: flex;
@@ -49,9 +55,19 @@
   justify-content: center;
 }
 /* row 1 */
+#divor > div {
+  width: 16px;
+  height: 16px;
+  background-color: #0400ff;
+  margin-top: 4px;
+  margin-right: 40px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+}
 .container1 {
   display: flex;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(0, 255, 13);
   flex-direction: row-reverse;
 }
 .container1 > div {
@@ -61,12 +77,29 @@
   border-radius: 50%;
 }
 .container1 > .divo {
-  background-color: #00fffb;
+  background-color: #00f7ff8e;
   border-radius: 2px;
+  border: 2px solid rgba(1, 0, 42, 0.474);
   margin: 10px;
   padding: 20px;
 }
+.container1 > #divor {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-bottom: -10px;
+}
 /* row 2 */
+#divow > div {
+  width: 16px;
+  height: 16px;
+  background-color: #ff0000;
+  margin-top: 4px;
+  margin-left: 40px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+}
 .container2 {
   display: flex;
   background-color: #ffa200;
@@ -86,7 +119,12 @@
   margin: 10px;
   padding: 20px;
 }
-
+.container2 > #divor {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-bottom: -10px;
+}
 /* row 3 */
 .container3 {
   display: flex;
