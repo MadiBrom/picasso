@@ -1,4 +1,4 @@
-/* backgroun */
+/* BACKGROUND */
 .body {
   background-color: rgb(54, 54, 54);
 }
@@ -12,7 +12,6 @@
   border: 1px solid #ff000074;
   box-shadow: 0 4px 40px rgba(255, 0, 0, 0.728);
 }
-/* NAV */
 .nav {
   text-decoration: none;
   padding: 5px 5px;
@@ -43,119 +42,100 @@
   outline: 4px double rgb(0, 47, 255);
   transform: translateY(4px);
 }
-
 /* whole painting */
-#painting {
-  width: 400px;
-  height: 200px;
-  margin-top: 40px;
-  border: 15px solid;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+
 /* row 1 */
-#divor > div {
-  width: 16px;
-  height: 16px;
-  background-color: #0400ff;
-  margin-top: 4px;
-  margin-right: 40px;
-  border-radius: 50%;
-  display: flex;
-  flex-direction: column;
-}
+/* background */
 .container1 {
-  display: flex;
-  background-color: rgb(0, 255, 13);
-  flex-direction: row-reverse;
-}
-.container1 > div {
-  background-color: #ffa200;
-  margin: 10px;
-  padding: 20px;
-  border-radius: 50%;
-}
-.container1 > .divo {
-  background-color: #00f7ff8e;
-  border-radius: 2px;
-  border: 2px solid rgba(1, 0, 42, 0.474);
-  margin: 10px;
-  padding: 20px;
-}
-.container1 > #divor {
+  width: 300px;
+  height: fit-content;
   display: flex;
   flex-direction: column;
-  align-content: center;
-  margin-bottom: -10px;
-}
-/* row 2 */
-#divow > div {
-  width: 16px;
-  height: 16px;
-  background-color: #ff0000;
-  margin-top: 4px;
-  margin-left: 40px;
-  border-radius: 50%;
-  display: flex;
-  flex-direction: column;
-}
-.container2 {
-  display: flex;
-  background-color: #ffa200;
-  display: flex;
-  height: 90px;
+  flex-wrap: nowrap;
+  justify-content: center;
   align-items: center;
+  background-color: rgb(154, 206, 255);
+  border: 20px solid black;
+  padding-bottom: 100px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
 }
-.container2 > div {
-  background-color: #fffb00;
-  margin: 10px;
-  padding: 20px;
+/* clouds */
+.container1 > #cloud {
+  display: flex;
+  flex-direction: row;
   border-radius: 50%;
+  padding-top: 30px;
+  margin-top: 60px;
+  margin-bottom: -20px;
+  margin-left: -90px;
 }
-.container2 > .divo {
-  background-color: #00fffb;
-  border-radius: 2px;
-  margin: 10px;
-  padding: 20px;
-}
-.container2 > #divor {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  margin-bottom: -10px;
-}
-/* row 3 */
-.container3 {
-  display: flex;
-  background-color: #fffb00;
-  flex-direction: row-reverse;
-  flex-direction: column;
-  align-items: center;
-}
-#divot > div {
-  width: 16px;
-  height: 16px;
-  background-color: #40ff00;
-  margin-top: 4px;
-  margin-right: 40px;
+.container1 > #cloud > #dot1 {
+  background-color: rgba(255, 255, 255, 0.542);
   border-radius: 50%;
-  display: flex;
-  flex-direction: column;
+  box-shadow: 2px 1px 70px black;
+  height: 15px;
+  width: 60px;
+  padding: 40px;
+  margin-left: -90px;
 }
-.container3 > .divo {
-  background-color: #aa00ff;
-  border-radius: 2px;
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  margin-top: -5px;
-  margin-bottom: -17px;
+.container1 > #cloud > #dot2 {
+  background-color: rgba(255, 255, 255, 0.67);
+  border-radius: 50%;
+  box-shadow: 2px 1px 70px rgba(27, 20, 20, 0.799);
+  height: 45px;
+  width: 80px;
+  padding: 40px;
+  margin-top: 30px;
 }
-.container3 > #divot {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  margin-bottom: -10px;
+.container1 > #cloud > #dot3 {
+  background-color: rgba(195, 194, 194, 0.631);
+  border-radius: 50%;
+  box-shadow: 2px 1px 70px rgba(255, 255, 255, 0.92);
+  height: 50px;
+  width: 100px;
+  padding: 40px;
+  margin-right: -70px;
+}
+/* sun */
+.container1 > #sun {
+  background-color: orange;
+  box-shadow: 8px 15px 100px yellow;
+  border-radius: 50%;
+  padding: 100px;
+  margin-top: 30px;
+  margin-right: 150px;
+  margin-bottom: -280px;
+}
+/* tree */
+.container1 > #treetop {
+  width: 0;
+  height: 0;
+  border-left: 45px solid transparent;
+  border-right: 45px solid transparent;
+  border-bottom: 110px solid #40ff00;
+  box-shadow: 0px 10px rgba(41, 81, 29, 0.824);
+  margin-right: 250px;
+}
+.container1 > #treemid {
+  width: 0;
+  height: 0;
+  border-left: 55px solid transparent;
+  border-right: 55px solid transparent;
+  border-bottom: 100px solid #499e2a;
+  box-shadow: 0px 10px rgba(26, 51, 18, 0.891);
+  margin-top: -440px;
+  margin-right: 250px;
+  margin-bottom: -170px;
+}
+.container1 > #trunk {
+  background-color: rgb(71, 46, 0);
+  box-shadow: 5px 5px 5px rgba(62, 44, 26, 0.571);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 40px;
+  margin-top: 200px;
+  margin-right: 250px;
+  margin-bottom: 300px;
 }
